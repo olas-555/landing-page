@@ -1,4 +1,8 @@
-/* HERO SECTION */
+   body {
+    background-color: red;
+   }
+   
+   /* HERO SECTION */
 .hero {
     display: flex;
     justify-content: space-between;
