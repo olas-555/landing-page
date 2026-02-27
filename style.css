@@ -1,7 +1,8 @@
-   body {
-    background-color: red;
-   }
-   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
    /* HERO SECTION */
 .hero {
     display: flex;
@@ -41,7 +42,7 @@
 
 /* INFORMATION SECTION */
 .info {
-    padding: 60px 150px;
+    padding: 60px 0;
     text-align: center;
 }
 .info h2 {
@@ -50,12 +51,16 @@
     margin-bottom: 40px;
 }
 .info-container {
+    max-width: 900px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 .info-item {
     max-width: 160px;
+    text-align: center;
 }
 .info-box {
     width: 160px;
@@ -68,3 +73,4 @@
 .info-item p {
     font-size: 14px;
     color: #555;
+}
